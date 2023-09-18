@@ -10,7 +10,7 @@ public class Main {
 
         while(true){
             String opciones = JOptionPane.showInputDialog(null,"seleccione una opcion",
-                    "menu", JOptionPane.PLAIN_MESSAGE,null,new Object[]{"conversor de monedas","conversor de tmperatura}"
+                    "menu", JOptionPane.PLAIN_MESSAGE,null,new Object[]{"conversor de monedas","conversor de temperatura"
                             },"elejir").toString();
             switch (opciones){
                 case "conversor de monedas":
